@@ -1,47 +1,64 @@
 body {
-    
+
     height: 800px;
     width: 100%;
     background-color: rgb(230, 189, 131);
     margin: 0;
 }
+
 header {
     border-bottom: 1px solid rgb(5, 5, 46);
     padding: 1rem 1rem;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     background: rgb(230, 189, 131);
     font-size: 24px;
     position: sticky;
-   
+
 
 }
+
 div {
     float: right;
-   
+
 }
+
 a {
     text-align: right;
-    text-underline-position:none;
+    text-underline-position: none;
     padding-left: 20px;
     color: #611;
     text-decoration: none;
 }
-    a:hover {
-        color: rgb(228, 133, 38);
-        text-decoration: underline;
-    }
+
+a:hover {
+    color: rgb(228, 133, 38);
+    text-decoration: underline;
+}
+
 section {
-    
+
     margin: 30px;
     background-color: rgb(245, 191, 111);
-    
+    height: 600px;
 }
-  p {
-  
-    font-size: 26px;
+
+p {
+
+    font-size: 22px;
     text-align: center;
-    padding: 1in;
     line-height: 2;
-    height: 500px;
-    
-  }
+
+}
+
+.travel {
+    float: right;
+    width: 250px;
+    height: 200px;
+    border-radius: 5rem;
+}
+.yoga{
+float: left;
+width: 250px;
+height: 200px;
+border-radius: 5rem;
+}
